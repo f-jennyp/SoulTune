@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="40dp"
+        tools:context=".About">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:id="@+id/st_logo"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/howw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="SOUL TUNE"
+            android:textColor="@color/textColor"
+            android:textColorHighlight="@color/design_default_color_primary"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/st_logo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-3dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="@string/How"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/howw" />
+
+        <Button
+            android:id="@+id/meet_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEET THE TEAM"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/design_default_color_error"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

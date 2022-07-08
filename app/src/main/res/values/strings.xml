@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="text">Light Mode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="How">
+        <i>version 1.0</i>\n\n
+        Tabs: <u><b>ALBUMS</b></u>, <u><b>SONGS</b></u>, and <u><b>FAVORITES</b></u>.\n\n
+
+        <h1><u><b>ALBUMS</b></u></h1>:\n
+        You can see different albums and choose songs from them.\n\n
+
+        <u><b>SONGS</b></u>:\n
+        List of your songs.\n\n
+
+        <u><b>FAVORITES</b></u>:\n
+        List of added favorite songs.\n\n
+
+        For <u><b>SETTINGS</b></u> and <u><b>CUSTOMIZATION</b></u>:\n
+        Click the menu button on the upper left corner or just simply swipe  left the screen.
+        \n\n
+
+        <u><b>DARK</b></u> and <u><b>LIGHT MODE</b></u>:\n
+        A message will pop up once it was successfully changed into desired theme.\n\n
+
+        <u><b>SORT SONGS</b></u>:\n
+        You can select how you want to sort song by Title, Date, or Size\n\n
+
+        <u><b>SLEEP MODE</b></u>:\n
+        You can set specific time of until when you want the song to be played.\n\n
+
+        <u><b>VOICE ACTIVATION</b></u>:\n
+        Setting voice commands instead of clicking buttons.
+    </string>
+
+    <string name="Aficial">
+        <u>AFICIAL, JOSHUA B.</u>\n
+        20 years old\n
+        Dagupan City, Pangasinan\n
+        <i>""Do what makes you happy.""</i>\n
+        joshaficial@gmail.com\n\n
+    </string>
+
+    <string name="Benitez">
+        <u>BENITEZ, JEMIMA KESIA V.</u>\n
+        19 years old\n
+        Brgy. Tebag, San Carlos City, Pangasinan\n
+        <i>"I know He who holds my future, why would I worry?"</i>\n
+        kesiabenitez31@gmail.com\n\n\n
+    </string>
+
+    <string name="Fernandez">
+        <u>FERNANDEZ, JENNY P.</u>\n
+        20 years old\n
+        Mayombo Dist., Dagupan City, Pangasinan\n
+        <i>"Vision without action is a daydream. Action without vision is a nightmare."</i>\n
+        fernandez.jennyp@gmail.com\n\n
+    </string>
+
+    <string name="Dacanay">
+        <u>DACANAY, SEAN PATRICK C.</u>\n
+        20 years old\n
+        Sta. Maria, San Jacinto, Pangasinan\n
+        <i>"All our dreams can come true if we have the courage to pursue them."</i>\n
+        sdacanay97@gmail.com\n\n
+    </string>
+
+    <string name="Lorresco">
+        <u>LORESCO, JUSTINE PAUL G.</u>\n
+        19 years old\n
+        Brgy. San Miguel, Calasiao, Pangasinan\n
+        <i>"Follow your heart."</i>\n
+        justineloresco08@gmail.com\n
+    </string>
+
+    <string name="Sison">
+        <u>SISON, JONAS G.</u>\n
+        20 years old\n
+        Brgy. Mancup, Calasiao, Pangasinan\n
+        <i>"Do your best and God will do the rest."</i>\n
+        jonassison2@gmail.com\n\n
+    </string>
+
+    <string name="DeVera">
+        <u>DE VERA, ERICA MAE P.</u>\n
+        20 years old\n
+        Caranglaan District, Dagupan City, Pangasinan\n
+        <i>"Think before you speak"</i>\n
+        deveraericamae@gmail.com\n
+    </string>
+
+    <string name="Castaneda">
+        <u>CASTANEDA, DANICA</u>\n
+        20 years old\n
+        Longos Proper, San Fabian, Pangasinan\n
+        Catanedadanica19@gmail.com\n\n
+    </string>
+
+
+</resources>

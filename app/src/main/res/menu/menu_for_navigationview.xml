@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Theme">
+        <menu>
+            <item
+                android:id="@+id/nav_light"
+                android:icon="@drawable/ic_light_mode"
+                android:title="Light"
+                android:onClick="LightMode"/>
+            <item
+                android:id="@+id/nav_dark"
+                android:icon="@drawable/ic_dark_mode"
+                android:title="Dark"
+                android:onClick="DarkMode"/>
+        </menu>
+    </item>
+    <item
+        android:title="Sort songs by"
+        android:id="@+id/sort_options"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:title="Title"
+                android:id="@+id/by_name"
+                android:icon="@drawable/ic_sort_by_name"
+                app:showAsAction="never"/>
+            <item
+                android:title="Date"
+                android:id="@+id/by_date"
+                android:icon="@drawable/ic_sort_by_date"
+                app:showAsAction="never"/>
+            <item
+                android:title="Size"
+                android:id="@+id/by_size"
+                android:icon="@drawable/ic_sort_by_size"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sleep_mood"
+            android:title="Sleep Mode"
+            android:checkable="true"
+            android:icon="@drawable/ic_snooze"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About"
+            android:icon="@drawable/ic__about"/>
+
+    </group>
+</menu>
