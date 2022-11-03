@@ -1,5 +1,5 @@
 # SoulTune
-SoulTune is a music player android application that is build in Java and combines the  following main features:
+SoulTune is a music player android application that is build in Java and combines the following main features:
 
 * Read songs, albums, and artists from device
 * Light and dark mode
