@@ -6,7 +6,10 @@ SoulTune is a music player android application that is build in Java and combin
 * Sleep mode
 * Voice command
 
-![1](https://user-images.githubusercontent.com/92615243/199544473-294ff487-8984-423d-b37e-265e940d36cf.jpg)
-![2](https://user-images.githubusercontent.com/92615243/199544478-b7b7d24c-4705-4029-acd0-6e506cccc5a9.jpg)
-![3](https://user-images.githubusercontent.com/92615243/199544483-e84f4cf2-2883-44e1-842a-2746bf8d462c.jpg)
-![4](https://user-images.githubusercontent.com/92615243/199544491-883dbd80-9127-42ba-b167-786326d8deed.jpg)
+![1](https://user-images.githubusercontent.com/92615243/199645943-b6e882ad-b428-4971-a0e5-101c15e15e30.jpg)
+![2](https://user-images.githubusercontent.com/92615243/199645954-9a7c5660-c632-4b50-9def-97c58f6dd5f8.jpg)
+![3](https://user-images.githubusercontent.com/92615243/199645956-7c96f189-89c2-405c-b638-daec34d75201.jpg)
+![4](https://user-images.githubusercontent.com/92615243/199645973-724d6706-db24-45b7-8974-54cadd7fd931.jpg)
+![5](https://user-images.githubusercontent.com/92615243/199645984-0ded3cca-4aa5-4d14-96f2-e2ec558efc90.jpg)
+![6](https://user-images.githubusercontent.com/92615243/199646001-c79a7749-f3ef-48e3-85b9-aecc154eeeae.jpg)
+
