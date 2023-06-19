@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        tools:context=".Meet_the_team">
+
+        <TextView
+            android:id="@+id/gname"
+            android:layout_width="331dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="4dp"
+
+
+            android:gravity="center_horizontal"
+            android:text="*The AnalytIQs*"
+            android:textColor="@color/textColor"
+            android:textColorHighlight="@color/design_default_color_primary"
+            android:textSize="34dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/p_manager"
+            android:layout_width="367dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="28dp"
+            android:text="PROJECT MANAGER"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gname" />
+        <TextView
+            android:id="@+id/aficial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Aficial"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p_manager" />
+
+        <TextView
+            android:id="@+id/s_programmer"
+            android:layout_width="367dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="28dp"
+            android:text="SENIOR PROGRAMMER"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aficial" />
+        <TextView
+            android:id="@+id/fernandez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fernandez"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_programmer" />
+
+        <TextView
+            android:id="@+id/j_programmer"
+            android:layout_width="367dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="28dp"
+            android:text="JUNIOR PROGRAMMER"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fernandez" />
+        <TextView
+            android:id="@+id/benitez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Benitez"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/j_programmer" />
+
+        <TextView
+            android:id="@+id/designer"
+            android:layout_width="367dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="28dp"
+            android:text="DESIGNER"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/benitez" />
+        <TextView
+            android:id="@+id/loresco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Lorresco"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/designer" />
+        <TextView
+            android:id="@+id/sison"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/Sison"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loresco" />
+
+        <TextView
+            android:id="@+id/researcher"
+            android:layout_width="367dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="28dp"
+            android:text="RESEARCHERS"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sison" />
+        <TextView
+            android:id="@+id/devera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DeVera"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/researcher" />
+        <TextView
+            android:id="@+id/castaneda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Castaneda"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/devera" />
+
+        <TextView
+            android:id="@+id/analyst"
+            android:layout_width="367dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="28dp"
+            android:text="ANALYST"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/castaneda" />
+        <TextView
+            android:id="@+id/dacanay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Dacanay"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/analyst" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

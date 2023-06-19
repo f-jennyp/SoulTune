@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.music">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Soul Tune"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Music">
+
+        <receiver
+            android:name=".MyAlarm"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Sleep_page" />
+        <activity android:name=".Meet_the_team" />
+        <activity android:name=".About_page" />
+        <activity android:name=".AlbumDetails" />
+        <activity android:name=".ArtistDetails"/>
+        <activity android:name=".PlayerActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <receiver
+            android:name=".NotificationReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="actionprevious" />
+                <action android:name="actionnext" />
+                <action android:name="actionplay" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

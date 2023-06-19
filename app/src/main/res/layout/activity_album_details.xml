@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".AlbumDetails"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layot_top_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_arrow_back"/>
+
+        <TextView
+            android:id="@+id/albumName_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:text="Album Name"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/back_btn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/albumPhoto"
+        android:src="@drawable/music"
+        android:scaleType="center"
+        android:background="@color/white"
+        android:layout_below="@id/layot_top_btn"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/gradient"
+        android:src="@drawable/gredient_bg_albums"
+        android:layout_below="@id/layot_top_btn"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleView"
+        android:layout_below="@+id/albumPhoto"/>
+
+
+</RelativeLayout>

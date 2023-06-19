@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".ArtistDetails">
+
+    <RelativeLayout
+        android:id="@+id/layot_top_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:id="@+id/artistName_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:text="Artist"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/back_btn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"/>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/artistPhoto"
+        android:layout_width="178dp"
+        android:layout_height="176dp"
+        android:src="@drawable/music"
+        android:scaleType="fitStart"
+        android:layout_below="@+id/layot_top_btn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/artistPhoto"
+        android:text="Artist Name"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        android:id="@+id/artistName_2"
+        android:layout_below="@+id/layot_top_btn"/>
+
+    <TextView
+        android:id="@+id/songs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/artistPhoto"
+        android:text="SONGS"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleView"
+        android:layout_below="@+id/songs"
+        android:layout_marginTop="12dp"/>
+
+
+
+</RelativeLayout>
